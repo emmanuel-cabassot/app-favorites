@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    box-shadow: 3px 3px 3px grey;
+    margin-bottom: 40px;
+}
+
+header img{
+    height:50px;
+    width: auto;
+}
+
+.logo a{
+vertical-align: text-top;
+text-decoration: none;
+color: white;
+margin-right: 7px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 2px 6px 2px 6px;
+    border-radius: 22px;
+    margin-left: 15px;
+    border: 2px solid rgb(43, 43, 243);
+}
+
+.logoimg :hover{
+    transform: rotate(330deg);
+    transition-duration: 1s;
+    transition-property: rotate;
+}
+
+.navlogo{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.logofourchette img{
+    height: 70px;
+}
+
+.logofourchette :hover{
+transform: rotate(10deg);
+transition-duration: 1s;
+}
+
+.logohomeexchange img{
+height: 75px;
+}
+
+.logohomeexchange :hover{
+transform: rotate(10deg);
+transition-duration: 1s;
+}
+
+.logotoogood :hover{
+    transform: rotate(10deg);
+    transition-duration: 1s;
+}
+
+.navlogo a{
+    padding: 0 20px 0 20px;
+    margin: 0 30px 0 30px;
+}
+
+.grostitre span{
+background-color: white;
+padding: 5px 10px 5px 15px;
+border-radius: 25px;
+font-size: 1.2em;
+box-shadow: 1px 1px 1px grey;
+}
+
+.appresentation{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.lafourchette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 20px 15px 15px 15px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.lafourchette a{
+    text-decoration: none;
+    color: black;
+}
+
+.lafourchette h1 :hover{
+    color: green;
+    transition-duration: 0.6s;
+}
+
+.lafourchette img{
+    width: 100%;
+    height: auto;
+}
+
+.homeexchange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 20px 15px 15px 15px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.homeexchange a{
+    text-decoration: none;
+    color: black;  
+}
+
+.homeexchange h1 :hover{
+    color: rgb(245, 174, 22);
+    transition-duration: 0.6s;
+}
+
+.homeexchange img{
+    width: 100%;
+    height: auto;
+}
+
+.toogood{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 20px 15px 15px 15px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px grey;  
+}
+
+.toogood a{
+    text-decoration: none;
+    color: black;
+}
+
+.toogood h1 :hover{
+    color: rgb(62, 163, 221);
+    transition-duration: 0.6s;
+}
+
+.toogood img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+
+   

@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo img{
+    width: 130px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.headernav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: white;
+    border-bottom: 2px solid  rgb(238, 237, 237);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.08em;
+}
+
+.nav :hover{
+    opacity: 0.7;
+}
+
+.gold{
+    justify-content: flex-end;
+}
+
+.gold a{
+    background-color: #f7A800;
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.headerback{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slogan{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 2.8em;
+    
+}
+
+.communaute a{
+    background-color: #f7A800;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: Averta,Helvetica,Arial,Verdana,sans-serif;
+    padding: 12px;
+}
+
+.communaute :hover{
+    opacity: 0.93;
+}
+
+.communaute{
+    margin-top: 30px;
+}
+
+.film {
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    text-decoration: none;
+}
+
+.headerchiffre{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0.9em;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: rgb(238, 237, 237);
+}
+
+.maisons{
+    width: 200px;
+    text-align: center;
+    color: #f7A800;
+    font-size: 1.4em;
+    margin-right: 100px;
+}
+
+.pays{
+    width: 200px;
+    text-align: center;
+    color: #f7A800;
+    font-size: 1.4em;
+}
+
+
+.echanges{
+    width: 200px;
+    text-align: center;
+    color: #f7A800;
+    font-size: 1.4em;
+    margin-left: 100px;
+}
+span {
+    color: grey;
+    font-size: 0.6em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.profitez{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profitez{
+    margin: 4% 20% 0 20%;
+}
+
+.texte1 h2{
+    font-size: 2.1em;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.texte2 p{
+    color: grey;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+
+.trois{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.trois h4{
+    margin-bottom: 0px;
+}
+.trois p{
+    color: grey;
+    margin-top: 5px;
+}
+
+.trois img{
+    width: 80px;
+    height: 80px;
+}
+
+.ailleurs{
+    width: 20%;
+    padding: 10px;
+}
+
+.prix{
+    width: 20%;
+    padding: 10px;
+}
+
+.zen{
+    width: 20%;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 10px solid rgb(248, 225, 228);
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footerhome{
+    margin-left: 30px;
+}
+
+.footerhome img{
+    width: 30;
+
+}
+
+.social{
+    margin-right: 30px;
+}
+
+
+
